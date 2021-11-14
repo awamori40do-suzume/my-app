@@ -4,13 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './common/navbar/navbar.component';
-import { ProductComponent } from './common/product-list/product.list';
+import { ProductDetilComponent } from './product-detil/product.detil';
+import { ProductComponent } from './product-list/product.list';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    ProductComponent
+    ProductComponent,
+    ProductDetilComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component} from '@angular/core';
 
 @Component({
   selector: 'app-product',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./product.list.scss']
 })
 export class ProductComponent {
-  title = 'my-app';
+  //title = 'my-app';
+
+  prodacts: any = [1,2,3,4]
+
 }
