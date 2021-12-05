@@ -5,7 +5,7 @@ import { Component} from '@angular/core';
   templateUrl: './product.list.html',
   styleUrls: ['./product.list.scss']
 })
-export class ProductComponent {
+export class ProductListComponent {
   //title = 'my-app';
 
   prodacts: any = [1,2,3,4]
